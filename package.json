@@ -2,7 +2,7 @@
   "name": "react-homework-template",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://github.com/Serhii151/goit-react-hw-06",
+  "homepage": "https://Serhii151.github.io/goit-react-hw-06/",
   "type": "module",
   "scripts": {
     "dev": "vite",
