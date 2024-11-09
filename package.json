@@ -2,10 +2,11 @@
   "name": "goit-react-hw-06",
   "private": true,
   "version": "0.0.0",
+  "homepage": "https://github.com/Serhii151/goit-react-hw-06",
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build",
+    "build": "vite build --base=/goit-react-hw-06/",
     "lint": "eslint .",
     "preview": "vite preview"
   },
