@@ -8,13 +8,13 @@ import { AppContainer } from './App.styles';
 const App = () => {
   return (
     
-        <AppContainer>
-          <h1>Phonebook</h1>
-          <ContactForm />
-          <h2>Contacts</h2>
-          <Filter />
-          <ContactList />
-        </AppContainer>
+    <AppContainer>
+      <h1>Phonebook</h1>
+      <ContactForm />
+      <h2>Contacts</h2>
+      <Filter />
+      <ContactList />
+    </AppContainer>
       
   );
 };
