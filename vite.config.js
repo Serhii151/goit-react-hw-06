@@ -7,5 +7,8 @@ export default defineConfig({
   base: '/goit-react-hw-06/',
   build: {
     sourcemap: true,
+  },
+  resolve: {
+    extensions: ['.js', '.jsx'], 
   }
 });
