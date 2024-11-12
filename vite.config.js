@@ -15,6 +15,9 @@ import react from '@vitejs/plugin-react';
 export default defineConfig({
   plugins: [react()],
   base: '/goit-react-hw-06/', 
+  build: {
+    sourcemap: false, // вимкніть source maps
+  },
   resolve: {
     extensions: ['.js', '.jsx'],
   },
