@@ -6,7 +6,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build",
+    "build": "vite build", // --base=/goit-react-hw-06/
     "lint": "eslint .",
     "preview": "vite preview"
   },
