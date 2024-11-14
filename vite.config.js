@@ -1,24 +1,10 @@
-//import { defineConfig } from "vite";
-//import react from "@vitejs/plugin-react";
+import { defineConfig } from "vite";
+import react from "@vitejs/plugin-react";
 
 // https://vitejs.dev/config/
-//export default defineConfig({
-  //plugins: [react()],
-  //build: {
-    //sourcemap: true,
-  //}
-//});
-
-import { defineConfig } from 'vite';
-import react from '@vitejs/plugin-react';
-
 export default defineConfig({
   plugins: [react()],
-  base: '/goit-react-hw-06/', 
   build: {
-    sourcemap: false, // вимкніть source maps
-  },
-  resolve: {
-    extensions: ['.js', '.jsx'],
-  },
+    sourcemap: true,
+  }
 });
